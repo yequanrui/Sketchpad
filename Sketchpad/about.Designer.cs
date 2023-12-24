@@ -62,7 +62,7 @@
             this.lbl_tool.Name = "lbl_tool";
             this.lbl_tool.Size = new System.Drawing.Size(295, 44);
             this.lbl_tool.TabIndex = 2;
-            this.lbl_tool.Text = "使用工具：Visual Studio 2015（C#）\r\n                Adobe Photoshop CS5";
+            this.lbl_tool.Text = "使用工具：Visual Studio 2022（C#）\r\n                Adobe Photoshop 2020";
             // 
             // btn_close
             // 
