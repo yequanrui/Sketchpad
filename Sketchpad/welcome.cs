@@ -3,14 +3,14 @@ using System.Windows.Forms;
 
 namespace Sketchpad
 {
-    public partial class welcome : Form
+    public partial class Welcome : Form
     {
-        public welcome()
+        public Welcome()
         {
             InitializeComponent();
         }
 
-        private void lbl_enter_Click(object sender, EventArgs e)
+        private void Enter_Click(object sender, EventArgs e)
         {
             this.Close();
         }

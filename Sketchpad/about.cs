@@ -3,14 +3,14 @@ using System.Windows.Forms;
 
 namespace Sketchpad
 {
-    public partial class about : Form
+    public partial class About : Form
     {
-        public about()
+        public About()
         {
             InitializeComponent();
         }
 
-        private void btn_close_Click(object sender, EventArgs e)
+        private void Btn_close_Click(object sender, EventArgs e)
         {
             this.Close();
         }

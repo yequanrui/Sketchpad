@@ -1,6 +1,6 @@
 ﻿namespace Sketchpad
 {
-    partial class about
+    partial class About
     {
         /// <summary>
         /// Required designer variable.
@@ -38,7 +38,7 @@
             // 
             this.lbl_about.AutoSize = true;
             this.lbl_about.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_about.Location = new System.Drawing.Point(120, 23);
+            this.lbl_about.Location = new System.Drawing.Point(120, 16);
             this.lbl_about.Name = "lbl_about";
             this.lbl_about.Size = new System.Drawing.Size(74, 22);
             this.lbl_about.TabIndex = 0;
@@ -48,7 +48,7 @@
             // 
             this.lbl_author.AutoSize = true;
             this.lbl_author.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_author.Location = new System.Drawing.Point(10, 55);
+            this.lbl_author.Location = new System.Drawing.Point(17, 48);
             this.lbl_author.Name = "lbl_author";
             this.lbl_author.Size = new System.Drawing.Size(264, 44);
             this.lbl_author.TabIndex = 1;
@@ -58,11 +58,11 @@
             // 
             this.lbl_tool.AutoSize = true;
             this.lbl_tool.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_tool.Location = new System.Drawing.Point(10, 109);
+            this.lbl_tool.Location = new System.Drawing.Point(17, 102);
             this.lbl_tool.Name = "lbl_tool";
-            this.lbl_tool.Size = new System.Drawing.Size(295, 44);
+            this.lbl_tool.Size = new System.Drawing.Size(250, 44);
             this.lbl_tool.TabIndex = 2;
-            this.lbl_tool.Text = "使用工具：Visual Studio 2022（C#）\r\n                Adobe Photoshop 2020";
+            this.lbl_tool.Text = "使用工具：Visual Studio（C#）\r\n                Adobe Photoshop";
             // 
             // btn_close
             // 
@@ -70,22 +70,22 @@
             this.btn_close.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_close.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_close.Location = new System.Drawing.Point(122, 163);
+            this.btn_close.Location = new System.Drawing.Point(122, 156);
             this.btn_close.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_close.Name = "btn_close";
             this.btn_close.Size = new System.Drawing.Size(70, 29);
             this.btn_close.TabIndex = 3;
             this.btn_close.Text = "关闭";
             this.btn_close.UseVisualStyleBackColor = true;
-            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
+            this.btn_close.Click += new System.EventHandler(this.Btn_close_Click);
             // 
-            // about
+            // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.CancelButton = this.btn_close;
-            this.ClientSize = new System.Drawing.Size(315, 214);
+            this.ClientSize = new System.Drawing.Size(300, 200);
             this.ControlBox = false;
             this.Controls.Add(this.btn_close);
             this.Controls.Add(this.lbl_tool);
@@ -96,7 +96,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "about";
+            this.Name = "About";
             this.Opacity = 0.9D;
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
